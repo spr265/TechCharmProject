@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<title>QuestionAnswerSystem</title>
+<body background="blue.jpg">
+<center>
+<h1>WELCOME TO QUESTION AND ANSWER SYSTEM</h1>
+<body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+
+<p>Please ask us question.</p>
+Question: <input type="text" id="Question" value="">
+
+<button id="ask" onclick="askQuepy()">Answer!</button>
+<!-- <button id="ans">Answer!</button> -->
+<p id="demoAnswer"></p>
+<p id="correct"> Is this correct? </p>
+<button id="correctB" onclick="correct()"> Correct </button>
+<button id="incorrectB" onclick="incorrect()" > Incorrect </button>
+
+
+<script>
+
+$(document).ready(function(){
+  $("#correct").hide();
+  $("#correctB").hide();
+  $("#incorrectB").hide();
+  $("#ask").click(function(){
+  	document.getElementById("correct").innerHTML = "Is this correct?";
+    $("#correct").show();
+  	$("#correctB").show();
+  	$("#incorrectB").show();
+  });
+
+  $("#correctB").click(function(){
+    $("#correct").show();
+  	$("#correctB").hide();
+  	$("#incorrectB").hide();
+  });
+
+  $("#incorrectB").click(function(){
+    $("#correct").show();
+  	$("#correctB").hide();
+  	$("#incorrectB").hide();
+  });
+});
+
+function askQuepy() {
+	    // var x = document.getElementById("Question").value;
+	    // document.getElementById("demoAnswer").innerHTML = x;
+
+	    // $.ajax({
+	    // 	url: "/quepyscript.py",
+	    // 	type: "POST",
+	    // 	data: {query: document.getElementById("Question").value},
+	    // 	success: function(data) {
+	    // 		document.getElementById("demoAnswer").innerHTML = "Quepy has received query";
+	    // 	}
+    	// });
+
+		// var request = 
+        $.ajax({
+        type: 'POST',
+        url: "./quepyscript1.py",
+        data: {param: "hi"}, //passing some input here
+        dataType: "text",
+        success: function(response){
+           output = response;
+           alert(output);
+		   }
+		}).done(function(data){
+		    console.log(data);
+		    alert(data);
+		});
+	}
+
+function correct() {
+	document.getElementById("correct").innerHTML = "Trans fat is considered by many doctors to be the worst type of fat you can eat.";
+}
+
+function incorrect() {
+	document.getElementById("correct").innerHTML = "NAY";
+}
+
+</script>
+
+</body>
+</center>
+</body>
+</html>
+
