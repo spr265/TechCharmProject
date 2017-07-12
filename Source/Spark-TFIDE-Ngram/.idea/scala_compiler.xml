@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="spark_tfidf_w2v" />
+    <profile name="SBT 1" modules="spark_tfidf_w2v,spark-tfide-ngram" />
   </component>
 </project>

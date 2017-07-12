@@ -25,7 +25,7 @@ object qa {
       val t=call.returnTriplets(line)
       t
     })
-  //in.foreach(println)
+    //Loop to check for who question which call for Person
 for (i <- 0 to 2) {
   val input = scala.io.StdIn.readLine()
   if (input.contains("who")) {
@@ -34,12 +34,14 @@ for (i <- 0 to 2) {
     })
     fun(r1, input)
   }
+  //Loop to check for where question which call for location
   if (input.contains("where")) {
     val r1 = text.map(line => {
       call.ret(line, "LOCATION")
     })
     fun(r1, input)
   }
+  //Loop to check for when question which call for date
   if (input.contains("when")) {
     val r1 = text.map(line => {
       call.ret(line, "DATE")

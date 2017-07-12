@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark_tfidf_w2v.iml" filepath="$PROJECT_DIR$/.idea/modules/spark_tfidf_w2v.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark_tfidf_w2v-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark_tfidf_w2v-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-tfide-ngram.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-tfide-ngram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-tfide-ngram-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-tfide-ngram-build.iml" />
     </modules>
   </component>
 </project>
