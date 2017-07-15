@@ -4,7 +4,7 @@
 		module="spark_tfidf_w2v$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170712164508"
+		publication="20170714204045"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
