@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#"
+     xml:base="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-21="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasGrossDomesticProdoct -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasGrossDomesticProdoct">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasHealthCare -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasHealthCare">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasIncome -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasIncome">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasRental -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasRental">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasTax -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasTax">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasWage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasWage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasWebsite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#hasWebsite">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Bussiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Bussiness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Construct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Construct"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Employment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Employment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#HealthCare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#HealthCare"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Housing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Housing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#IncomeTax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#IncomeTax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Tax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Marketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Marketing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#RealEstate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#RealEstate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Rental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Rental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#SmallBusiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#SmallBusiness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Bussiness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Tax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Tax"/>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#australia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#australia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#canada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#canada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#germany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#germany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#grossIncome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#grossIncome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Bussiness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#growth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#growth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#higf_cap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#higf_cap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#india -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#india">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#profit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#profit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Bussiness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#spain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#spain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#tax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#tax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Bussiness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Australia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Australia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+        <hasWage rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#1200"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Canada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+        <hasWage rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#1300"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+        <hasWage rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#6455"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Grosswage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Grosswage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+        <hasTax rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Australia"/>
+        <hasTax rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Canada"/>
+        <hasTax rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#spain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#India -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#India">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+        <hasTax rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#30"/>
+        <hasWage rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#689"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Newzealand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Newzealand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+        <hasTax rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#30"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#construction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#construction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Construct"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#six_to_nine_percent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#grossDomestic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#grossDomestic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Construct"/>
+        <hasGrossDomesticProdoct rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#six_to_nine_percent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#grossProfit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#grossProfit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Bussiness"/>
+        <hasTax rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Australia"/>
+        <hasTax rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#India"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#six_to_nine_percent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#six_to_nine_percent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Construct"/>
+        <hasWage rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#30"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Country"/>
+        <hasWage rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#789"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#www_spainexpat_com -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#www_spainexpat_com">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+        <hasWebsite rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#www_spainexpat_com"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Tax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#1200 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#1200">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#1300 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#1300">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Tax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#1500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#1500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Tax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Tax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#6455 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#6455">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#689 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#689">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#789 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#789">
+        <rdf:type rdf:resource="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Finance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#Australia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/putha/ontologies/2017/6/untitled-ontology-21#six_to_nine_percent"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
